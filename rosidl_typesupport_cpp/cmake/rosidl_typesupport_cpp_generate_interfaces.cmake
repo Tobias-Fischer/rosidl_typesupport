@@ -119,7 +119,7 @@ target_link_libraries(${rosidl_generate_interfaces_TARGET}${_target_suffix} PUBL
   ${rosidl_generate_interfaces_TARGET}__rosidl_generator_cpp)
 
 target_link_libraries(${rosidl_generate_interfaces_TARGET}${_target_suffix} PRIVATE
-  rosidl_runtime_c::rosidl_runtime_c
+  # rosidl_runtime_c::rosidl_runtime_c
   rosidl_runtime_cpp::rosidl_runtime_cpp
   rosidl_typesupport_cpp::rosidl_typesupport_cpp
   rosidl_typesupport_c::rosidl_typesupport_c
